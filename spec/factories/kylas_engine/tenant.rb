@@ -6,5 +6,7 @@ FactoryBot.define do
     webhook_api_key { SecureRandom.uuid }
     kylas_tenant_id { rand(10**4) }
     timezone { 'Asia/Calcutta' }
+    plan_id {'Embark'}
+    plan_change_at { 1.hour.from_now }
   end
 end

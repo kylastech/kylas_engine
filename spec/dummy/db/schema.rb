@@ -22,7 +22,7 @@ ActiveRecord::Schema[7.0].define(version: 2025_12_30_081943) do
     t.bigint "kylas_tenant_id"
     t.string "timezone", default: "Asia/Calcutta"
     t.string "plan_id"
-    t.datetime "plan_change_at"
+    t.datetime "plan_changed_at"
   end
 
   create_table "kylas_engine_users", force: :cascade do |t|

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_07_19_094504) do
+ActiveRecord::Schema[7.0].define(version: 2025_12_30_081943) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -21,6 +21,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_07_19_094504) do
     t.string "webhook_api_key"
     t.bigint "kylas_tenant_id"
     t.string "timezone", default: "Asia/Calcutta"
+    t.string "plan_id"
+    t.datetime "plan_changed_at"
   end
 
   create_table "kylas_engine_users", force: :cascade do |t|

@@ -29,7 +29,8 @@
   .authentication-form-wrapper {
     background-color: $white;
     padding: 3rem;
-    img {
+
+    .sign-in__placeholder {
       display: none;
     }
 
@@ -41,12 +42,8 @@
       display: none;
     }
 
-    .bottom-links {
-      display: none;
-    }
-
-    .recaptcha{
-      iframe{
+    .recaptcha {
+      iframe {
         height: 78px;
       }
     }
@@ -73,21 +70,21 @@
   .authentication-layout {
     margin-top: 0 !important;
 
-    .content-wrapper{
+    .content-wrapper {
       margin: 1rem;
     }
   }
 
-  .navbar{
+  .navbar {
     display: none !important;
   }
 }
 
-.error{
+.error {
   color: red
 }
 
-.form-group{
+.form-group {
   margin-bottom: 0px;
 }
 

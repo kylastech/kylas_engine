@@ -37,3 +37,14 @@ body {
   flex: auto;
   width: min-content;
 }
+
+.logo {
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+
+.support-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
